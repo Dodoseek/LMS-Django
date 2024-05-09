@@ -4,31 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b040016a-6689-47bb-b5f6-4ba2da80c197" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/LMS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LMS/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LMS/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LMS/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LMS/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LMS/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courses/fields.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courses/static/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courses/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courses/templates/courses/manage/course/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courses/templates/courses/manage/course/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courses/templates/courses/manage/course/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courses/templates/registration/logged_out.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courses/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courses/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    <list default="true" id="b040016a-6689-47bb-b5f6-4ba2da80c197" name="Changes" comment="create LMS">
+      <change beforePath="$PROJECT_DIR$/.idea/LMS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LMS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Andrew/Desktop/Учеба/6 семестр/ПИС моё/LMS",
+    "last_opened_file_path": "C:/Projects/LMS-Django",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -88,33 +66,8 @@
       <recent name="C:\Users\Andrew\Desktop\Учеба\6 семестр\ПИС моё\LMS\courses\static\css" />
     </key>
   </component>
-  <component name="RunManager" selected="Django Server.LMS">
+  <component name="RunManager">
     <configuration name="LMS" type="Python.DjangoServer" factoryName="Django server">
-      <module name="LMS" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="LMS.settings" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="localhost" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
       <module name="LMS" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,7 +77,7 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="SDK_NAME" value="Python 3.12 (LMS)" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\glush\OneDrive\Desktop\Учеба\6 семестр\ПИС моё\LMS" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -139,15 +92,12 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Django Server.LMS" />
-      <item itemvalue="Django Server.Unnamed" />
-    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
+        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
       </set>
     </attachedChunks>
   </component>
@@ -160,11 +110,28 @@
       <option name="presentableId" value="Default" />
       <updated>1713609645920</updated>
       <workItem from="1713609652450" duration="3160000" />
-      <workItem from="1713612831010" duration="3305000" />
+      <workItem from="1713612831010" duration="4551000" />
+      <workItem from="1714213594333" duration="127000" />
+      <workItem from="1715268264144" duration="256000" />
+      <workItem from="1715268530784" duration="124000" />
+      <workItem from="1715268662632" duration="64000" />
     </task>
+    <task id="LOCAL-00001" summary="create LMS">
+      <option name="closed" value="true" />
+      <created>1713616470146</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713616470146</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create LMS" />
+    <option name="LAST_COMMIT_MESSAGE" value="create LMS" />
   </component>
 </project>
